@@ -6,7 +6,7 @@
   "scripts": {
     "start-prod": "",
     "start-staging": "",
-    "dev": "API_SECRET='api123' PORT=3005 AUTH_DB_URL='mongodb+srv://admin:admindev123@general.kskii.mongodb.net/learn-auth?retryWrites=true&w=majority' MAILER_SVC='http://localhost:3000/send-mail'  nodemon ./bin/www",
+    "dev": "API_SECRET='api123' PORT=3005 AUTH_DB_URL='' MAILER_SVC='http://localhost:3000/send-mail'  nodemon ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Suprith Reddy",
